@@ -85,4 +85,4 @@ cargo tauri build
 
 ## License
 
-Apache-2.0 license. See [License here](./LICENSE) for details.
+Apache-2.0 license. See [License here](https://github.com/ChurchTao/Lanaya/blob/master/LICENSE) for details.
