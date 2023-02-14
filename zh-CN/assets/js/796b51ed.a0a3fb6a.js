@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[770],{7263:e=>{e.exports=JSON.parse('{"title":"Basics","slug":"/category/basics","permalink":"/zh-CN/category/basics","navigation":{"previous":{"title":"\u66f4\u65b0\u65e5\u5fd7","permalink":"/zh-CN/update-log"},"next":{"title":"TODO","permalink":"/zh-CN/tutorial-basics/todo"}}}')}}]);
