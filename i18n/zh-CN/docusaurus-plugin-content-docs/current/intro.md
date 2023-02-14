@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# 简介
 
 <h1 align="center">
   <img src="img/md/icon.png" width="128" />
@@ -12,57 +12,55 @@ sidebar_position: 1
 </h1>
 
 <h3 align="center">
-A clipboard management with easy to use.
+一个简洁易用的剪切板管理
 </h3>
+`Lanaya` 来自于`DOTA2`中的圣堂刺客, 简洁易用，全键盘操作的剪切板管理工具
 
-Lanaya comes from Templar Assassin in Dota2, which is a clipboard management software with convenient and simple interaction.
+## 功能
 
-## Features
+- 通过关键词搜索
+- 全快捷键操作
+- 设置历史条数范围
+- 多语言
+- 自动更新
+- 输入 `f:xxx` 搜索收藏的记录
 
-- Search by keywords.
-- All shortcut to manage.
-- Setting history record range.
-- Multi-language.
-- Auto updater.
-- Input `f:xxx` to search favorite records.
+## 未完成
 
-## Todos
+- [x] 引入`taildwind`管理 css
+- [x] 新增复制图片历史的功能
+- [ ] 增加主题
+- [x] 新增收藏夹功能
+- [ ] 增加`Windows`,`Linux`的适配
+- [x] 使用`Rust`实现后台监听剪切板
+- [x] 使用`Rust`实现`Sqlite`的数据库操作
 
-- [x] add `taildwind` to manage css.
-- [x] add copy image history.
-- [ ] add theme.
-- [x] add favorite.
-- [ ] add `Windows`,`Linux` support.
-- [x] use `Rust` to implement clipboard listener.
-- [x] use `Rust` to implement `Sqlite` database operation.
+## 下载
 
-## Download
+从 [release](https://github.com/ChurchTao/Lanaya/releases) 中下载.
 
-Download from [release](https://github.com/ChurchTao/Lanaya/releases).
+## 开发
 
-## Development
-
-You should install Rust and Nodejs, see [here](https://tauri.app/v1/guides/getting-started/prerequisites) for more details. Then install Nodejs packages.
+你需要安装 `Rust` 和 `Nodejs`，详细步骤查看 [这里](https://tauri.app/zh-cn/v1/guides/getting-started/prerequisites) ，然后按如下命令进行开发
 
 ```shell
 npm install
 ```
 
-Then run
+然后
 
 ```shell
-cargo install tauri-cli # output with [no such subcommand: `tauri`] please install first
-
+cargo install tauri-cli # 提示没有 cargo tauri 命令需先执行安装
 cargo tauri dev
 ```
 
-Or you can build it
+如果需要构建
 
 ```shell
 cargo tauri build
 ```
 
-## Screenshots
+## 截图
 
 <div align="center">
   <img src="img/md/demo1.png" alt="demo1" width="80%" />
@@ -72,13 +70,13 @@ cargo tauri build
   <img src="img/md/demo5.png" alt="demo4" width="80%" />
 </div>
 
-## Contributions
+## 建议
 
-Issue and PR welcome!
+👏🏻 非常欢迎提`Issue`和`PR`！毕竟一个人的力量有限。
 
-## Acknowledgement
+## 技术栈
 
-Lanaya was based on or inspired by these projects and so on:
+`Lanaya` 基于如下技术栈：
 
 - [tauri-apps/tauri](https://github.com/tauri-apps/tauri): Build smaller, faster, and more secure desktop applications with a web frontend.
 - [vitejs/vite](https://github.com/vitejs/vite): Next generation frontend tooling. It's fast!
